@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "github_unityTest.sln"
+    "dotnet.defaultSolution": "Twilight_Requiem.sln"
 }
