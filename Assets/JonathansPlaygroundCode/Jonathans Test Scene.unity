@@ -122,6 +122,95 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &554229232
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 250491746120320083, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498362083822812775, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4498362083822812775, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6137855315768062176, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_Name
+      value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6688108252576238515, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166960419338357305, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166960419338357305, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166960419338357305, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
+      propertyPath: m_MaskInteraction
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab43a658f18022c4492733e72f63bc3c, type: 3}
 --- !u!1 &1012504719
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +434,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1058017823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -663,3 +752,4 @@ SceneRoots:
   - {fileID: 1603497637}
   - {fileID: 1058017820}
   - {fileID: 1746934776}
+  - {fileID: 554229232}
