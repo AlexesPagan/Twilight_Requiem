@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
     private float moveSpeed = 4.0f; // Set move speed
-    private Controls controls;
+    public Controls controls;
     private Rigidbody2D rb; // Create Rigidbody2D variable 
     private Vector2 moveDirection; // Create a 2d vector for move direction, x and y. 
 
@@ -62,8 +62,6 @@ public class PlayerMovement : MonoBehaviour
         //NEW INPUT STUFF
         moveDirection = controls.Player_Overworld.Movement.ReadValue<Vector2>();
         rb.velocity = moveDirection * moveSpeed;
-
-
 
     }
 }
