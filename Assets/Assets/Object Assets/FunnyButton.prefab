@@ -172,7 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc3b320136504374b90f573ab72e7a25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toBeSpawned: {fileID: 0}
+  prompt: Spawn Enemy (Interact)
+  toBeSpawned: {fileID: 5639621528794560190, guid: b453bd8cf9306474a876665c078affc8, type: 3}
   xPosition: 0
   yPositon: 0
 --- !u!58 &4172622302335433774
