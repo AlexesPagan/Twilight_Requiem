@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  interactorHitbox: {fileID: 3613614092407491479}
 --- !u!114 &4534862673967293857
 MonoBehaviour:
   m_ObjectHideFlags: 0

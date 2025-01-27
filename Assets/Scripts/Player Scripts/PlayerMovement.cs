@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -8,8 +9,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 4.0f; // Set move speed
     public Controls controls;
-    private Rigidbody2D rb; // Create Rigidbody2D variable 
+    public Rigidbody2D rb; // Create Rigidbody2D variable 
     private Vector2 moveDirection; // Create a 2d vector for move direction, x and y. 
+
 
 
     // Start is called before the first frame update
@@ -62,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
         //NEW INPUT STUFF
         moveDirection = controls.Player_Overworld.Movement.ReadValue<Vector2>();
         rb.velocity = moveDirection * moveSpeed;
+
 
     }
 }
